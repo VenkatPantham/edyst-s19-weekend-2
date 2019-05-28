@@ -602,15 +602,13 @@ body {
         margin: 0px;
     }
 
-    .email_form1,
-    .email_form2 {
+    .email_form1 {
         width: 96%;
         border-radius: 5px;
         border: 1px solid #999999;
     }
 
-    .email_button1,
-    .email_button2 {
+    .email_button1 {
         width: 100%;
         border-radius: 5px;
         border: 0px solid #2f65f9;
@@ -721,25 +719,27 @@ body {
     }
 
     .bottom {
-        margin-right: auto;
-        padding: 30px 50px;
-        text-align: left;
+        margin: auto;
         color: #ffffff;
         background-color: #575989;
-        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
     }
 
     .bottom_part1 {
-        padding: 20px;
-        width: 700px;
-        display: block;
-        float: left;
+        flex:1;
     }
 
     .bottom_data1 {
-        margin: 15px 0px 0px 0px;
+        margin: auto;
         padding: 10px;
         font-size: 30px;
+        
+    }
+
+    .bottom_part2 {
+        flex: 1;
     }
 
     .bottom_data2 {
@@ -748,18 +748,21 @@ body {
         font-size: 15px;
     }
 
-    .bottom_part2 {
-        padding: 20px;
-        width: 700px;
-        display: block;
-        float: right;
+    .email_button2{
+        margin: 24px;
+        width: 80%;
+    }
+
+    .email_form2{
+        margin: 4px;
+        width: 77%;
     }
 
     .footer {
         position: relative;
         margin: auto;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
         padding: 20px 20px 30px 20px;
         background-color: #07043b;
         color: #ffffff;
@@ -798,25 +801,18 @@ body {
 
     .footer_part2 {
         margin: auto;
-        /* position: absolute;
-        top:0px;
-        left: 500px; */
         padding-top: 40px;
     }
 
     .footer_part3 {
         margin: auto;
-        /* position: absolute;
-        top:40px;
-        left: 800px; */
         padding-top: 5px;
     }
 
     .footer_part4 {
         margin: auto;
-        /* position: absolute;
-        top:30px;
-        left: 1050px; */
+        display: flex;
+        flex-direction: row;
         padding: 10px;
         text-align: center;
     }
@@ -824,21 +820,21 @@ body {
     .footer_fb {
         padding: 10px;
         width: 100%;
-        max-width: 30px;
-        height: auto;
+        /* max-width: 60px; */
+        height: 30px;
     }
 
     .footer_tw {
         padding: 10px;
         width: 100%;
-        max-width: 30px;
-        height: auto;
+        /* max-width: 30px; */
+        height: 30px;
     }
 
     .footer_in {
         padding: 10px;
         width: 100%;
-        max-width: 30px;
-        height: auto;
+        /* max-width: 30px; */
+        height: 30px;
     }
 }
