@@ -91,6 +91,7 @@ body {
 
     .curve {
         margin-top: 30px;
+        margin-bottom: -5px;
         width: 100%;
         max-width: 420px;
         height: auto;
@@ -353,6 +354,7 @@ body {
 
     .curve {
         margin-top: 60px;
+        margin-bottom: -5px;
         width: 100%;
         max-width: 1024px;
         height: auto;
@@ -624,6 +626,7 @@ body {
 
     .curve {
         margin-top: 40px;
+        margin-bottom: -5px;
         width: 100%;
         max-width: 1400px;
         height: auto;
