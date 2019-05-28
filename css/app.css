@@ -719,6 +719,7 @@ body {
 
     .bottom {
         margin: auto;
+        padding-top:65px;
         color: #ffffff;
         background-color: #575989;
         display: flex;
@@ -727,14 +728,15 @@ body {
     }
 
     .bottom_part1 {
+        margin-top: 0px;
+        text-align: left;
         flex:1;
     }
 
     .bottom_data1 {
         margin: auto;
         padding: 10px;
-        font-size: 30px;
-        
+        font-size: 30px;    
     }
 
     .bottom_part2 {
