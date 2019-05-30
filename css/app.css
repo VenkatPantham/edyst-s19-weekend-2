@@ -624,7 +624,7 @@ body {
 
     .curve {
         margin: 40px auto -5px auto;
-        width:100%;
+        width: 100%;
         max-width: 1500px;
         height: auto;
     }
@@ -719,7 +719,7 @@ body {
 
     .bottom {
         margin: auto;
-        padding-top:65px;
+        padding-top: 65px;
         color: #ffffff;
         background-color: #575989;
         display: flex;
@@ -730,13 +730,13 @@ body {
     .bottom_part1 {
         margin-top: 0px;
         text-align: left;
-        flex:1;
+        flex: 1;
     }
 
     .bottom_data1 {
         margin: auto;
         padding: 10px;
-        font-size: 30px;    
+        font-size: 30px;
     }
 
     .bottom_part2 {
@@ -749,12 +749,12 @@ body {
         font-size: 15px;
     }
 
-    .email_button2{
+    .email_button2 {
         margin: 24px;
         width: 80%;
     }
 
-    .email_form2{
+    .email_form2 {
         margin: 4px;
         width: 77%;
     }
